@@ -15,6 +15,36 @@ files = [
 tests = ["mypy (>=0.800)", "pytest", "pytest-asyncio"]
 
 [[package]]
+name = "cmake"
+version = "3.30.5"
+description = "CMake is an open-source, cross-platform family of tools designed to build, test and package software"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "cmake-3.30.5-py3-none-macosx_10_10_universal2.whl", hash = "sha256:c518d174cde8c5bda3dc9c906af2e1ad54448019d9a9061c5d85331c67bbaa60"},
+    {file = "cmake-3.30.5-py3-none-manylinux_2_12_i686.manylinux2010_i686.whl", hash = "sha256:085728e950e6096014c99fc46361fbaa508863157bafe0ecf6dc232c16098456"},
+    {file = "cmake-3.30.5-py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:437e9f885cf576f47b45974a92239d7c86da91e99e62ecf1aa8be454703dd1a6"},
+    {file = "cmake-3.30.5-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:b3a662e22dba1288b678daa5544a62a05da1992e0b654e799217e22bc7e5194a"},
+    {file = "cmake-3.30.5-py3-none-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:9dbedacaba2daa40726569590762d775246325b609753d7af888dc7eda49c7bd"},
+    {file = "cmake-3.30.5-py3-none-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:4a5c113428aa9f3b4b2ce2e6dc1b932cfe3991be04d215c5ab51c078eae3e674"},
+    {file = "cmake-3.30.5-py3-none-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:9edd4065dbc67a6861255f05135249a3f042f1e09a73c608f84a1a0c6a60a266"},
+    {file = "cmake-3.30.5-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:db049e551e2f0562b3b225ac760888ee38b8ade62d74213f3611420e6b22f36d"},
+    {file = "cmake-3.30.5-py3-none-musllinux_1_1_aarch64.whl", hash = "sha256:f9b351ad3b0bacd04fe73a35b71bf603416b0441d295c13881e56eba6ec01b4b"},
+    {file = "cmake-3.30.5-py3-none-musllinux_1_1_i686.whl", hash = "sha256:c37f41ac7e7a806c91d16cd3efcd696635634bb63e0d9007582373f5a81c4fa1"},
+    {file = "cmake-3.30.5-py3-none-musllinux_1_1_ppc64le.whl", hash = "sha256:e4fd409b3455a01fe80860503be4c1b34e2e12cc5433921c7aed1102a3870322"},
+    {file = "cmake-3.30.5-py3-none-musllinux_1_1_s390x.whl", hash = "sha256:4a1ded0183a75bd71ee275ef976e8eb97b4a5f4b58e09c90c1734c509acb7d5a"},
+    {file = "cmake-3.30.5-py3-none-musllinux_1_1_x86_64.whl", hash = "sha256:e2fd43ab522695e0ebbb6dfc6a1466daeb66c57f7f4aade02fe8c5a61acc2828"},
+    {file = "cmake-3.30.5-py3-none-musllinux_1_2_armv7l.whl", hash = "sha256:6161031b0c89f3f60b82cd5e1dd8cdef47b0a057f9a5349e18bf1507ac4b2402"},
+    {file = "cmake-3.30.5-py3-none-win32.whl", hash = "sha256:3ee3ab9b4d3fcdb9360104ef2175a47e145693b365983dcd8ccb5d58b1d0ab7f"},
+    {file = "cmake-3.30.5-py3-none-win_amd64.whl", hash = "sha256:dddb1c82e69c8cf79a314f57c2cbb1b3c152758fa0997a5f5ddf8fc8207c994a"},
+    {file = "cmake-3.30.5-py3-none-win_arm64.whl", hash = "sha256:ef454176664c941da91197feb91b68cab91ef0354ab0c4d7bfb70e069cb700f1"},
+    {file = "cmake-3.30.5.tar.gz", hash = "sha256:2815a2b4dde61a78648a2ff4318d2d303eb41600c4bdb32fcb237b4746444ed2"},
+]
+
+[package.extras]
+test = ["coverage (>=4.2)", "pytest (>=3.0.3)", "pytest-cov (>=2.4.0)"]
+
+[[package]]
 name = "django"
 version = "5.1.2"
 description = "A high-level Python web framework that encourages rapid development and clean, pragmatic design."
@@ -77,4 +107,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "243d16a8d4143c8df5eed111b04cfd433c5ec2f9e2a66c03a877772bff5d1e7d"
+content-hash = "4b78487df25efd65c6d03c6638e55308977a554aab3ff8c2c1900dc0aca43167"
