@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'drf_api_logger',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -41,6 +42,7 @@ INSTALLED_APPS = [
     'logs',
     'profiles',
 ]
+DRF_API_LOGGER_DATABASE = True
 
 LOGIN_URL = 'login/'
 
